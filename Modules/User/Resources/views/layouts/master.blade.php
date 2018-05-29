@@ -13,6 +13,7 @@
     <body>
         @yield('content')
 
+
         <!-- Laravel Mix - JS File -->
         <!-- <script src="{{ mix('js/user.js') }}"></script> -->
     </body>

@@ -5,6 +5,7 @@ namespace Modules\User\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\Config;
 
 class UserController extends Controller
 {
@@ -14,7 +15,9 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('user::index');
+        return view('user::index', [
+            'env' => Config::get('app.url'),
+        ]);
     }
 
     /**

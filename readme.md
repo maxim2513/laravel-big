@@ -14,7 +14,8 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 This package with:
 
 1. `docker-composer` run by `deploy.sh`
-2.  modules componet
+2.  [modules componet](https://github.com/nWidart/laravel-modules)
+3.  add multi Environment  [code](https://gist.github.com/msankhala/3c282abf546318a2662e)
 
 
 ## License
